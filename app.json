@@ -35,17 +35,17 @@
     "TOKEN": {
       "description": "Your bot token. Get one from @BotFather duh",
       "required": true,
-      "value": ""
+      "value": "5393050669:AAHic-h1ZxD517Sx1eCFZD2c7ss7T7oHSAE"
     },
     "API_ID": {
       "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
       "required": true,
-      "value": ""
+      "value": "8814786"
     },
     "API_HASH": {
       "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
       "required": true,
-      "value": ""
+      "value": "fa0f85d235ca71c90b345578f3b8d28f8814786"
     },
     "SQLALCHEMY_DATABASE_URL": {
       "description": "Your postgres sql db, empty this field if you dont have one.ex: sqldbtype://username:pw@hostname:port/db_name",
@@ -67,12 +67,12 @@
     },
     "OWNER_USERNAME": {
       "description": "Your username without the @",
-      "value": "XultiM8"
+      "value": "Simp_Ly_Naveen"
     },
     "SUPPORT_CHAT": {
       "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to zeldris support than consider you made an enemy.",
       "required": true,
-      "value": "MarinSupport"
+      "value": "NexusXSupport"
     },
     "MESSAGE_DUMP": {
       "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -150,7 +150,7 @@
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
       "required": false,
-      "value": "https://t.me/XultiM8"
+      "value": "https://t.me/Simp_Ly_Naveen"
     },
     "DEL_CMDS": {
       "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
