@@ -87,32 +87,33 @@ RAIDEN_IMG = "https://telegra.ph/file/9f266a0cd571586b79f1e.mp4"
 RAIDEN_START = "https://telegra.ph/file/125747f3dbd6325207cdf.mp4"
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/3f3548e8a4334922aa3a4.mp4) 」────
+────「 [{}](https://telegra.ph/file/e84157db2ae533268eaab.mp4) 」────
 ᴋᴏɴ'ɴɪᴄʜɪᴡᴀ {} - sᴀɴ!  
-ɪ'ᴍ [𝙈𝙖𝙧𝙞𝙣](https://sono-bisque-doll-wa-koi-wo-suru.fandom.com/wiki/Marin_Kitagawa) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
+ɪ'ᴍ [𝑨𝒕𝒆𝒏𝒂](https://dorm-mother.fandom.com/wiki/Atena_Saotome) ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-» ᴜᴘᴛɪᴍᴇ {} 
-» ᴜsᴇʀs {} ᴀᴄʀᴏss {} ᴄʜᴀᴛs 
+»  Advance In Modules.
+»  Many Tools As Well Fun Features.
+»  Faster Than Any Other Bot.
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ʜɪᴛ /help ᴛᴏ sᴇᴇ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ᴀғᴛᴇʀ ᴍʏ ᴇʟᴇᴍᴇɴᴛᴀʟ ʙᴜғғ. ××  
-𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 [𝘼𝙊𝙂𝙄𝙍𝙄](https://t.me/AogiriNetwork).
+𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 [𝗧𝗲𝗮𝗺𝗡𝗲𝘅𝘂𝘀𝗫](https://t.me/TeamNexusX).
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴍᴀʀɪɴ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️",
-            url="t.me/SenkoSanRobot?startgroup=true",
+            text="➕️ ᴀᴅᴅ ᴀᴛᴇɴᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ➕️",
+            url="t.me/AtenaXRobot?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
             text="ᴍʏ ʜᴏᴍᴇ",
-            url="t.me/SenkoxSupport",
+            url="t.me/NexusxSupport",
         ),
         InlineKeyboardButton(
-            text="ᴛʜᴇ ᴀʟᴍɪɢʜᴛʏ ∞",
-            url="https://t.me/Xultim8",
+            text="sʟᴀᴅᴇ",
+            url="t.me/simp_ly_naveen",
         ),
     ],
     [
@@ -121,14 +122,14 @@ buttons = [
             callback_data="help_back",
         ),
         InlineKeyboardButton(
-            text="ᴀᴏɢɪʀɪ",
-            url="https://t.me/AogiriNetwork",
+            text="Vᴇɴᴏᴍ Fᴀᴛᴇ",
+            url="https://t.me/DarkkCarnage",
         ),
     ],
 ]
 
 HELP_STRINGS = """
-Hey there! Myself [ᴍᴀʀɪɴ](https://telegra.ph/file/c95d5ef1b7abbf3238f3e.mp4).
+Hey there! Myself [ᴀᴛᴇɴᴀ](https://telegra.ph/file/432e88a6c18b5629a8fe9.mp4).
 Have a look at the following for an idea of some of the things I can help you with.
 *Main* commands available:
  ➛ /help: PM's you this message.
@@ -137,7 +138,7 @@ Have a look at the following for an idea of some of the things I can help you wi
  ➛ /donate: information on how to donate!
  ➛ /settings: 
    ❂ in PM: will send you your settings for all supported modules.
-   ❂ in a group: will redirect you to pm, with all that chat's settings.\n• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ:* [sᴜᴘᴘᴏʀᴛ](https://t.me/MarinSupport)
+   ❂ in a group: will redirect you to pm, with all that chat's settings.\n• *ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ:* [sᴜᴘᴘᴏʀᴛ](https://t.me/NexusXSupport)
 """
 
 IMPORTED = {}
@@ -683,9 +684,9 @@ def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
             dispatcher.bot.send_video(
-                "@MarinSupport",
-                "https://telegra.ph/file/a3519d803e811ec8bd572.jpg",
-                "Am Alive Again ~ UwU ~",
+                "@NexusXSupport",
+                "https://telegra.ph/file/07cfb0bf4e1b74bee2a9b.jpg",
+                "Am Back Alive just to Satisfy you 🥵",
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
